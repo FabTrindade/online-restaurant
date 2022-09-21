@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Cardapio from './pages/cardapio/Index';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <div>Online Restaurant</div>
+    <div><Cardapio/></div>
   </React.StrictMode>
 );
