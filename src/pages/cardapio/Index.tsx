@@ -8,6 +8,11 @@ export default function Cardapio(){
                 <Logo/>
                 Aluroni
             </nav>
+            <header className={styles.header}>
+                <div className={styles.header__text}>
+                A casa da massa preferida
+                </div>
+            </header>
         </main>
     )
 }
