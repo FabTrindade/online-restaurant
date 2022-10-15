@@ -24,7 +24,7 @@ export default function Filtros({filtro, setFiltro}:Props){
                 <button 
                     className={ClassNames({
                         [styles.filtros__filtro]: true,                        
-                        [styles["filtros__filtro--ativo"]]: filtro === opcao.id
+                        [styles['filtros__filtro--ativo']]: filtro === opcao.id
                     })}
                     key={opcao.id}
                     onClick={() => selecionarFiltros(opcao)}
@@ -33,5 +33,5 @@ export default function Filtros({filtro, setFiltro}:Props){
                 </button>
             ))}
         </div>
-    )
+    );
 }
