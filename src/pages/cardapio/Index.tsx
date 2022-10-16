@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Filtros from './Filtros';
 import Ordenador from './ordenador';
 import Itens from './itens';
-import Menu from 'components/menu';
 
 export default function Cardapio(){
     const [busca, setBusca] = useState('');
@@ -13,7 +12,6 @@ export default function Cardapio(){
 
     return(
         <main>
-            <Menu />              
             <header className={styles.header}>
                 <div className={styles.header__text}>
                 A casa da massa preferida
