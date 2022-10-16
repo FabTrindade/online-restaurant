@@ -3,7 +3,6 @@ import opcoes from './opcoes.json';
 import { useState } from 'react';
 import classNames from 'classnames';
 import {MdKeyboardArrowUp, MdKeyboardArrowDown} from 'react-icons/md';
-import { OperationCanceledException } from 'typescript';
 
 interface Props{
     ordenador: string,
